@@ -101,7 +101,6 @@ function lightBox () {
 				.velocity('transition.expandOut', {duration:0})
 				.appendTo(f.element.overlay);
 
-//player.vimeo.com/video/
 
 			$('[href*="vimeo.com"], [href*="youtube.com"]').off().click(f.open);
 
@@ -213,7 +212,6 @@ function lightBox () {
 	}
 
 	return f;
-
 }
 
 $(function () {
